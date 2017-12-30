@@ -9,7 +9,6 @@ price = "$17"
 origin = "Bloomington, IN"
 favorite = true
 thumbnail = "https://www.fillmurray.com/g/400/400"
-url = "notes/creekbend-noir"
 +++
 
 I love this wine. It's a personal favorite of my wife's and mine. The grapes are grown about 10 miles from where we live at Creekbend Vinyard in Elletseville, Indiana. This is my go to bottle of to gift to friends and family that aren't already wine drinkers due to how approachable and easy-drinking it is.

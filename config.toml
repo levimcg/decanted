@@ -1,4 +1,4 @@
-baseurl = "https://levimcg.github.io/decanted/"
+baseurl = "https://levimcg.github.io/decanted"
 languageCode = "en-us"
 title = "Decanted"
 paginate = 10

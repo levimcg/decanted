@@ -1,9 +1,9 @@
 <header class="site-header" role="banner">
-    <span class="site-header__title"><a href="/">{{ .Site.Title }}</a></span>
+    <span class="site-header__title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></span>
     <nav class="site-nav" role="navigation" aria-label="Global">
         <ul>
-            <li{{ if eq .Page.URL "/" }} class="is-current"{{ end }}><a href="{{ .Site.BaseURL }}">Tasting notes</a></li>
-            <li{{ if eq .Page.URL "/wishlist/" }} class="is-current"{{ end }}><a href="{{ .Site.BaseURL }}/wishlist">Wishlist</a></li>
+            <li{{ if eq .Page.URL "/decanted/" }} class="is-current"{{ end }}><a href="{{ .Site.BaseURL }}">Tasting notes</a></li>
+            <li{{ if eq .Page.URL "/decanted/wishlist/" }} class="is-current"{{ end }}><a href="{{ .Site.BaseURL }}wishlist">Wishlist</a></li>
         </ul>
     </nav>
 </header>

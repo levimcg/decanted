@@ -1,0 +1,35 @@
+html {
+    font-size: 100%;
+
+    * {
+        box-sizing: border-box;
+    }
+}
+
+@include mq(840px) {
+    html {
+        font-size: 115%;
+    }
+}
+
+@include mq(1140px) {
+    html {
+        font-size: 135%;
+    }
+}
+
+body {
+    font-family: $font-sans;
+    line-height: 1.5;
+    color: $color-black;
+    background-color: $color-white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-serif;
+    font-weight: 400;
+}
+
+figure {
+    margin: 0;
+}

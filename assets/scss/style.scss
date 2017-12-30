@@ -1,0 +1,402 @@
+@import "variables";
+@import "tools";
+@import "../../node_modules/normalize.scss/normalize";
+@import "core/base";
+
+@import "components/header";
+
+.post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 900px) {
+    .post-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__item {
+            flex-basis: 50%;
+            min-width: 50%;
+            padding-right: 2rem;
+
+            &:nth-child(2n) {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .post-list__item {
+        flex-basis: 33.3333%;
+        min-width: 33.3333%;
+        padding-right: 2rem;
+
+        &:nth-child(3n) {
+            padding-right: 0;
+        }
+    }
+}
+
+@supports(display: grid) {
+    @media screen and (min-width: 900px) {
+        .post-list {
+            display: grid;
+            grid-column-gap: 3rem;
+            grid-row-gap: 4rem;
+            grid-template-columns: repeat(2, 1fr);
+
+            &__item {
+                padding-right: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1100px) {
+        .post-list {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+.note-teaser {
+    position: relative;
+    padding-left: 2rem;
+
+    &__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: $color-text;
+    }
+
+    &__icon--red {
+        color: $color-purple;
+    }
+
+    &__icon--rose {
+        color: $color-rose;
+    }
+
+    &__icon--white {
+        color: $color-white-grapes;
+    }
+
+    &__title {
+        line-height: 1.2;
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        margin-bottom: 0;
+        padding-right: 2rem;
+
+        a {
+            text-decoration: none;
+            color: $color-black;
+        }
+
+        a:hover {
+            color: purple;
+        }
+    }
+
+    &__desc {
+        color: mix($color-text, $color-background, 70%);
+        margin-bottom: 0;
+    }
+
+    &__date {
+        text-transform: uppercase;
+        letter-spacing: .025rem;
+        font-size: .825rem;
+        display: block;
+        margin-top: .5rem;
+        color: $color-text-subtle;
+
+        &:before {
+            content: "—";
+            display: block;
+            font-size: 1.5rem;
+            color: mix($color-text, $color-background, 30%);
+        }
+    }
+}
+
+.wrapper {
+    padding: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .wrapper {
+        padding: 3rem;
+    }
+}
+
+.note-header {
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-top: 0;
+    }
+
+    &__meta {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            line-height: 1;
+        }
+
+        li:not(:first-child) {
+            margin-left: 3rem;
+        }
+    }
+
+    &__term,
+    &__value {
+        display: block;
+    }
+}
+
+.note-meta-heading {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    font-size: .75rem;
+    font-family: $font-sans;
+    line-height: 1;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+/**
+ * The main single note layout
+ */
+
+.note {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.note-header {
+    &__meta {
+        margin-top: 1rem;
+        border-top: $ruler;
+        border-bottom: $ruler;
+        padding: .75rem .5rem;
+    }
+}
+
+.note-content {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.note-label {
+    border-radius: 4px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.note-aside {
+    min-width: 125px;
+    flex-basis: 125px;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width: 720px) {
+    .note-aside {
+        min-width: 275px;
+        flex-basis: 275px;
+    }
+}
+
+.note-text {
+    h2, h3, h4, h5, h6 {
+        margin-top: 3rem;
+        font-size: 1.25rem;
+    }
+
+    &__heading {
+        margin-top: 0 !important;
+    }
+
+    ul {
+        padding-left: 1.1rem;
+    }
+}
+
+.note-nav {
+    display: flex;
+    border-top: $ruler;
+    margin-top: 3rem;
+
+    &__newer,
+    &__older {
+        color: $color-text;
+        width: 50%;
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        transition: all .2s ease;
+
+        &:hover,
+        &:focus {
+            background-color: $color-purple;
+            color: $color-background;
+            outline: none;
+        }
+
+        span {
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+            font-size: .75rem;
+        }
+    }
+
+    &__newer {
+        border-left: $ruler;
+    }
+}
+
+.tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        margin-bottom: .25rem;
+        margin-right: .25rem;
+
+        a {
+            text-decoration: none;
+            font-size: .825rem;
+            display: inline-block;
+            background-color: $color-purple;
+            color: $color-background;
+            padding: .25rem .5rem;
+            line-height: 1;
+            border-radius: 4px;
+            transition: background-color .25s ease;
+            border: 2px solid $color-purple;
+
+            &:hover,
+            &:focus {
+                background-color: $color-background;
+                border-color: $color-purple;
+                color: $color-purple;
+                outline: none;
+
+            }
+        }
+    }
+}
+
+.tag-list--rose {
+    li a {
+        background-color: $color-rose;
+        color: $color-text;
+        border-color: $color-rose;
+
+        &:hover {
+            background-color: $color-background;
+            border-color: $color-rose;
+            color: $color-text;
+            outline: none;
+        }
+    }
+}
+
+.tag-list--white {
+    li a {
+        background-color: $color-white-grapes;
+        color: $color-background;
+        border-color: $color-white-grapes;
+
+        &:hover {
+            background-color: $color-background;
+            border-color: $color-white-grapes;
+            color: $color-white-grapes;
+            outline: none;
+        }
+    }
+}
+
+.section-header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid mix($color-text, $color-background, 10%);
+    padding: .5rem .25rem;
+    align-items: center;
+
+    &__title {
+        font-size: .825rem;
+        font-family: $font-sans;
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+        margin: 0;
+    }
+
+    &__count {
+        font-weight: 700;
+        margin-left: auto;
+        font-size: .825rem;
+
+        span {
+            display: inline-block;
+            margin-left: .5rem;
+        }
+    }
+}
+
+
+/**
+ * Utils
+ */
+
+.mt1 {
+    margin-top: 1rem !important;
+}
+
+.mb1 {
+    margin-bottom: 1rem !important;
+}
+
+.mv1 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.mt2 {
+    margin-top: 2rem !important;
+}
+
+.mb2 {
+    margin-bottom: 2rem !important;
+}
+
+.mv2 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.pt0 {
+    padding-top: 0 !important;
+}
+
+.pt1 {
+    padding-top: 1rem !important;
+}

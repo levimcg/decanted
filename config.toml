@@ -1,0 +1,4 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Decanted"
+paginate = 10

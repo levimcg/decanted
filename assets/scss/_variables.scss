@@ -1,0 +1,15 @@
+$font-serif: "Libre Baskerville", serif;
+$font-sans: "Barlow", sans-serif;
+
+$color-black: #101b51;
+$color-white: #faf7f1;
+$color-purple: #663c6b;
+$color-rose: #ffcece;
+$color-white-grapes: #b1ca7e;
+
+$color-background: $color-white;
+
+$color-text: $color-black;
+$color-text-subtle: mix($color-text, $color-background, 70%);
+
+$ruler: 1px solid mix($color-text, $color-background, 10%);

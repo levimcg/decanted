@@ -1,0 +1,41 @@
+.site-header {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        font-family: $font-serif;
+        font-size: 1.5rem;
+
+        a {
+            text-decoration: none;
+            color: $color-text;
+        }
+    }
+}
+
+.site-nav {
+    margin-left: auto;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: $color-text;
+            }
+        }
+
+        li.is-current {
+            box-shadow: 0 2px 0 $color-text;
+        }
+
+        li:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+}

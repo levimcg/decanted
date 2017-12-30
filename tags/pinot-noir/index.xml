@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinot Noir on Decanted</title>
+    <link>/tags/pinot-noir/</link>
+    <description>Recent content in Pinot Noir on Decanted</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/pinot-noir/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hedgeline Vinyards Pinot Noir</title>
+      <link>/notes/0002-hedgeline-pinot-noir/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/0002-hedgeline-pinot-noir/</guid>
+      <description> This wine is actually made in California by Winepress Vintners (probably part of a big conglomerate), but it is made from Oregon Pinot Noir grapes. This was a really enjoyable and affordable wine and I would buy again for sure.
+Tasting Notes  Light ruby in color with tints of brown around the edges Lots of fresh red fruit and floral aromas Light body Caramel and almond notes in the finish  </description>
+    </item>
+    
+  </channel>
+</rss>

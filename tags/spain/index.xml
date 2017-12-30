@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spain on Decanted</title>
+    <link>/tags/spain/</link>
+    <description>Recent content in Spain on Decanted</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/spain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Viña Bujanda Rioja</title>
+      <link>/notes/0004-vina-bujanda-rioja/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/0004-vina-bujanda-rioja/</guid>
+      <description> This wine was OK but nothing to get too excited about. I&amp;rsquo;d be interested to taste this vintage again in a year or too once it&amp;rsquo;s had a chance to mellow out.
+Tasting Notes  100% Tempranillo Dark ruby in color Black cherry, currants, vegetal, bell pepper Some oaky spiciness, with some piney resinous qualities Medium-plus tannin Medium-plus body  </description>
+    </item>
+    
+    <item>
+      <title>Ibericos Riojoa</title>
+      <link>/notes/0003-ibericos-rioja/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/0003-ibericos-rioja/</guid>
+      <description> I loved this wine. Would go great with some salty snacks, or cured meats.
+Tasting Notes  Dark ruby in color Black cherry, vegetal aromas Oaky vanilla secondary aromas and taste Some spice/peppery notes Medium tannin that come on strong at the back of the tongue I got a little bit of green flower, like dandelion in the finish  </description>
+    </item>
+    
+  </channel>
+</rss>

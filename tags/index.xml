@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Decanted</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Decanted</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bordeaux</title>
+      <link>/tags/bordeaux/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bordeaux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carménerè</title>
+      <link>/tags/carm%C3%A9ner%C3%A8/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/carm%C3%A9ner%C3%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Central Valley</title>
+      <link>/tags/central-valley/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/central-valley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chardonay</title>
+      <link>/tags/chardonay/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chardonay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chile</title>
+      <link>/tags/chile/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cotes De Bourg</title>
+      <link>/tags/cotes-de-bourg/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cotes-de-bourg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crianza</title>
+      <link>/tags/crianza/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/crianza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid</title>
+      <link>/tags/hybrid/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oak</title>
+      <link>/tags/oak/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oregon</title>
+      <link>/tags/oregon/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oregon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pinot Noir</title>
+      <link>/tags/pinot-noir/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pinot-noir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Blend</title>
+      <link>/tags/red-blend/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/red-blend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rijoa</title>
+      <link>/tags/rijoa/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rijoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rioja</title>
+      <link>/tags/rioja/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rioja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spain</title>
+      <link>/tags/spain/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spain/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

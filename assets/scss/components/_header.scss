@@ -27,15 +27,28 @@
             a {
                 text-decoration: none;
                 color: $color-text;
+                font-size: .825rem;
             }
         }
 
         li.is-current {
-            box-shadow: 0 2px 0 $color-text;
+            box-shadow: 0 1px 0 mix($color-text, $color-background, 50%);
         }
 
         li:not(:last-child) {
+            margin-right: .5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .site-nav ul {
+        li:not(:last-child) {
             margin-right: 2rem;
+        }
+
+        li a {
+            font-size: 1rem;
         }
     }
 }

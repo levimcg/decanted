@@ -22,7 +22,9 @@ echo "Generating site"
 hugo
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd public && git add --all && git commit -m "Publishing to gh-pages (deploy.sh)"
 
 echo "Deploying to Github pages"
 git push origin gh-pages
+
+echo "Successfully pushed to gh-pages!"

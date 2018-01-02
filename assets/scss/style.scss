@@ -116,15 +116,8 @@
         letter-spacing: .025rem;
         font-size: .825rem;
         display: block;
-        margin-top: .5rem;
+        margin-top: 1rem;
         color: $color-text-subtle;
-
-        &:before {
-            content: "—";
-            display: block;
-            font-size: 1.5rem;
-            color: mix($color-text, $color-background, 30%);
-        }
     }
 }
 

@@ -469,6 +469,7 @@ a {
 .site-nav ul li a {
   text-decoration: none;
   color: #101b51;
+  font-size: .825rem;
 }
 
 .site-nav ul li.is-current {
@@ -476,12 +477,24 @@ a {
 }
 
 .site-nav ul li:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: .75rem;
+}
+
+@media screen and (min-width: 375px) {
+  .site-nav ul li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .site-nav ul li a {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
   .site-nav ul li:not(:last-child) {
     margin-right: 2rem;
+  }
+  .site-nav ul li a {
+    font-size: 1rem;
   }
 }
 
@@ -601,8 +614,7 @@ a {
 }
 
 .wrapper--header {
-  background-image: url("../img/lined_paper_@2X.png");
-  background-size: 222px 222px;
+  padding: 2rem 1rem;
 }
 
 @media screen and (min-width: 900px) {

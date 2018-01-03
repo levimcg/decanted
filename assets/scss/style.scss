@@ -72,8 +72,9 @@
 }
 
 .wrapper--header {
-    background-image: url("../img/lined_paper_@2X.png");
-    background-size: 222px 222px;
+    // background-image: url("../img/lined_paper_@2X.png");
+    // background-size: 222px 222px;
+    padding: 2rem 1rem;
 }
 
 @media screen and (min-width: 900px) {

@@ -2,7 +2,7 @@
 id = "0006"
 title = "Chateau du Bousquet"
 description = "An average quality Bordeaux, nothing great, but not bad either."
-date = "2017-01-19"
+date = "2017-01-09"
 categories = ["Red"]
 tags = ["Bordeaux", "Cotes de Bourg"]
 price = "$17"

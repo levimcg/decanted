@@ -2,7 +2,7 @@
 id = "0008"
 title = "Côtes Du Rhône Vidal-Fleury"
 description = "A decent and affordable Côtes Du Rhône AOC"
-date = "2017-01-24"
+date = "2017-01-15"
 categories = ["Red"]
 tags = ["Côtes Du Rhône", "Southern Rhône", "GSM"]
 price = "$14"

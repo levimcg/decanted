@@ -2,7 +2,7 @@
 id = "0007"
 title = "Toasted Head Chardonay"
 description = "Super buttery Chardonay with lots of oak from California"
-date = "2017-01-20"
+date = "2017-01-14"
 categories = ["White"]
 tags = ["Chardonay", "Oak"]
 price = "$15"

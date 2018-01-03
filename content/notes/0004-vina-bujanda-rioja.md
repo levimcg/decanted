@@ -1,11 +1,11 @@
 +++
 categories = ["Red"]
-date = "2017-01-08"
+date = "2017-01-05"
 favorite = false
 id = "0004"
 origin = "Rioja"
 price = "$17"
-tags = ["Rijoa", "Spain", "Crianza"]
+tags = ["Rioja", "Spain", "Crianza"]
 title = "Viña Bujanda Rioja"
 description = "A decent Rioja, but may need more time to mature"
 vintage = "2010"

@@ -5,7 +5,7 @@ categories = ["Red"]
 tags = ["Pinot Noir", "Oregon"]
 date = "2014-11-13"
 id = "0002"
-price = "$12"
+price = "12"
 vintage = "2013"
 +++
 

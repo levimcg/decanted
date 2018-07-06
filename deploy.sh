@@ -15,25 +15,25 @@ then
     exit 1;
 fi
 
-printf "Deleting old publication"
+printf "Deleting old publication\n"
 rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-printf "Checking out gh-pages branch into public"
+printf "Checking out gh-pages branch into public\n"
 git worktree add -B gh-pages public origin/gh-pages
 
-printf "\n🗑️ Removing existing files"
+printf "\n🗑️ Removing existing files\n"
 rm -rf public/*
 
-printf "\n👷‍$GREEN Generating site$NC"
+printf "\n👷‍$GREEN Generating site$NC\n"
 hugo
 
-printf "Updating gh-pages branch"
+printf "Updating gh-pages branch\n"
 cd public && git add --all && git commit -m "Publishing to gh-pages (deploy.sh)"
 
-printf "Deploying to Github pages"
+printf "Deploying to Github pages\n"
 git push origin gh-pages
 
 printf "\n👍 $GREEN Successfully pushed to gh-pages!$NC\n\n"

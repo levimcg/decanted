@@ -36,4 +36,4 @@ cd public && git add --all && git commit -m "Publishing to gh-pages (deploy.sh)"
 printf "Deploying to Github pages"
 git push origin gh-pages
 
-printf "\n👍 $GREEN Successfully pushed to gh-pages!$NC"
+printf "\n👍 $GREEN Successfully pushed to gh-pages!$NC\n\n"

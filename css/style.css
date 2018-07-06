@@ -700,6 +700,18 @@ a {
   display: block;
 }
 
+.note-label--white {
+  background-color: #b1ca7e;
+}
+
+.note-label--red {
+  background-color: #663c6b;
+}
+
+.note-label--rose {
+  background-color: #ffcece;
+}
+
 .note-aside {
   min-width: 125px;
   flex-basis: 125px;

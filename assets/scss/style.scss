@@ -165,6 +165,18 @@
         width: 100%;
         display: block;
     }
+
+    &--white {
+        background-color: $color-white-grapes;
+    }
+
+    &--red {
+        background-color: $color-purple;
+    }
+
+    &--rose {
+        background-color: $color-rose;
+    }
 }
 
 

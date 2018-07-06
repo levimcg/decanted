@@ -24,7 +24,7 @@ rm -rf .git/worktrees/public/
 printf "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
-printf "\n🗑️Removing existing files"
+printf "\n🗑️ Removing existing files"
 rm -rf public/*
 
 printf "\n👷‍$GREEN Generating site$NC"

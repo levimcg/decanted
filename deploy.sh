@@ -11,29 +11,29 @@ NC='\033[0m'
 
 if [[ $(git status -s) ]]
 then
-    printf "\n🚫$MAGENTA The working directory is dirty. Please commit any pending changes.\n\n $NC"
+    printf "\n🚫 $MAGENTA The working directory is dirty. Please commit any pending changes.$NC\n\n "
     exit 1;
 fi
 
-echo "Deleting old publication"
+printf "Deleting old publication"
 rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Checking out gh-pages branch into public"
+printf "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
-echo "\n🗑️Removing existing files"
+printf "\n🗑️Removing existing files"
 rm -rf public/*
 
-echo "\n👷‍$GREEN Generating site$NC"
+printf "\n👷‍$GREEN Generating site$NC"
 hugo
 
-echo "Updating gh-pages branch"
+printf "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (deploy.sh)"
 
-echo "Deploying to Github pages"
+printf "Deploying to Github pages"
 git push origin gh-pages
 
-echo "\n👍 $GREEN Successfully pushed to gh-pages!$NC"
+printf "\n👍 $GREEN Successfully pushed to gh-pages!$NC"

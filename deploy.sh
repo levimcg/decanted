@@ -15,7 +15,7 @@ then
     exit 1;
 fi
 
-printf "Deleting old publication\n"
+printf "$GREEN Deleting old publication\n$NC"
 rm -rf public
 mkdir public
 git worktree prune
@@ -37,3 +37,5 @@ printf "Deploying to Github pages\n"
 git push origin gh-pages
 
 printf "\n👍 $GREEN Successfully pushed to gh-pages!$NC\n\n"
+
+exit
